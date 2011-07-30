@@ -43,7 +43,7 @@ function check(report,name,status,tests){
 //  console.log('check')
     it(report)
       .has({
-        filename: name
+        name: name
       , status: status
       , tests: tests
       })
